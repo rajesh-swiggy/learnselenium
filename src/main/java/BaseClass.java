@@ -8,10 +8,14 @@ public class BaseClass {
 
     @BeforeMethod
     public void setupBrowser() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Java\\Selenium\\ThirdPartyBrowserDrivers\\chromedriver.exe");
+        String OS = System.getProperty("os.name").toLowerCase();
+        if(!OS.contains("mac"))
+        {
+            System.setProperty("webdriver.chrome.driver", "C:\\Java\\Selenium\\ThirdPartyBrowserDrivers\\chromedriver.exe");
+        }
 
         driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
     }
 
     @AfterMethod
