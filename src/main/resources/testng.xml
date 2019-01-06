@@ -25,4 +25,40 @@
             <class name="Selenium5DropDownMultiple" />
         </classes>
     </test>
+    <test name="DropdownBootstrap">
+        <classes>
+            <class name="Selenium6DropDownBootStrap" />
+        </classes>
+    </test>
+    <test name="VerifyErrorText">
+        <classes>
+            <class name="Selenium7VerifyErrorText" />
+        </classes>
+    </test>
+    <test name="ToolTipSimple">
+        <classes>
+            <class name="Selenium8ToolTipSimple" />
+        </classes>
+    </test>
+    <test name="ToolTipsJQuery">
+        <classes>
+            <class name="Selenium9ToolTipsJQuery" />
+        </classes>
+    </test>
+    <test name="ClickImage">
+        <classes>
+            <class name="Selenium10ClickImage" />
+        </classes>
+    </test>
+    <test name="LinkText">
+        <classes>
+            <class name="Selenium11LinkText" />
+        </classes>
+    </test>
+    <test name="PartialLinkText">
+        <classes>
+            <class name="Selenium12PartialLinkText" />
+        </classes>
+    </test>
+
 </suite>
