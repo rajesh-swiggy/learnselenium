@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">SeleniumPracticeSuite</th></tr>
+<tr><td><a href="#t0">FaceBookLogin</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">17,751</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">RadioButtonsTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">4,961</td><td></td><td></td></tr>
+<tr><td><a href="#t2">CheckBoxesTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">7,776</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">DropDownSingleTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">24,413</td><td></td><td></td></tr>
+<tr><td><a href="#t4">DropDownMultipleTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">9,744</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">64,645</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SeleniumPracticeSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FaceBookLogin &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Selenium1FirstTest</td><td><a href="#m0">loginFaceBook</a></td><td rowspan="1">1546697305212</td><td rowspan="1">14535</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">RadioButtonsTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Selenium2RadioButtons</td><td><a href="#m1">RadioButtonPractice</a></td><td rowspan="1">1546697322350</td><td rowspan="1">2576</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">CheckBoxesTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Selenium3CheckBoxes</td><td><a href="#m2">CheckBoxPractice</a></td><td rowspan="1">1546697327536</td><td rowspan="1">5204</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">DropDownSingleTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Selenium4DropDownSingle</td><td><a href="#m3">dropDownPractice</a></td><td rowspan="1">1546697335244</td><td rowspan="1">21330</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">DropDownMultipleTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Selenium5DropDownMultiple</td><td><a href="#m4">multiDropDownPractice</a></td><td rowspan="1">1546697359660</td><td rowspan="1">6792</td></tr></tbody>
+</table>
+<h2>FaceBookLogin</h2><h3 id="m0">Selenium1FirstTest#loginFaceBook</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>RadioButtonsTest</h2><h3 id="m1">Selenium2RadioButtons#RadioButtonPractice</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>CheckBoxesTest</h2><h3 id="m2">Selenium3CheckBoxes#CheckBoxPractice</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression following-sibling::label[.*] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;following-sibling::label[.*]&apos; is not a valid XPath expression.
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IND-PF0XJQYL-LT&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65085}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: ae7814dbd8ecfaea6fec6a28c3b7de44
+*** Element info: {Using=xpath, value=following-sibling::label[.*]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:185)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementByXPath(RemoteWebElement.java:261)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:181)
+	at Selenium3CheckBoxes.CheckBoxPractice(Selenium3CheckBoxes.java:20)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>DropDownSingleTest</h2><h3 id="m3">Selenium4DropDownSingle#dropDownPractice</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>DropDownMultipleTest</h2><h3 id="m4">Selenium5DropDownMultiple#multiDropDownPractice</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"> ====> Running the getOptions part<br/> ====> Running the selectByIndex part<br/> ====> Running the selectByVisibleText part<br/> ====> Running the selectByValue part<br/> ====> Running the getFirstSelected part<br/> ====> Running the deselectByIndex part<br/> ====> Running the deselectByValue part<br/> ====> Running the deselectByVisibleText part</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

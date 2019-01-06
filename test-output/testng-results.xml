@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[ ====> Running the getOptions part]]>
+    </line>
+    <line>
+      <![CDATA[ ====> Running the selectByIndex part]]>
+    </line>
+    <line>
+      <![CDATA[ ====> Running the selectByVisibleText part]]>
+    </line>
+    <line>
+      <![CDATA[ ====> Running the selectByValue part]]>
+    </line>
+    <line>
+      <![CDATA[ ====> Running the getFirstSelected part]]>
+    </line>
+    <line>
+      <![CDATA[ ====> Running the deselectByIndex part]]>
+    </line>
+    <line>
+      <![CDATA[ ====> Running the deselectByValue part]]>
+    </line>
+    <line>
+      <![CDATA[ ====> Running the deselectByVisibleText part]]>
+    </line>
+  </reporter-output>
+  <suite name="SeleniumPracticeSuite" duration-ms="64901" started-at="2019-01-05T19:38:22 IST" finished-at="2019-01-05T19:39:27 IST">
+    <groups>
+    </groups>
+    <test name="FaceBookLogin" duration-ms="17751" started-at="2019-01-05T19:38:22 IST" finished-at="2019-01-05T19:38:40 IST">
+      <class name="Selenium1FirstTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:Selenium1FirstTest@cd8737]" name="setupBrowser" is-config="true" duration-ms="2312" started-at="2019-01-05T19:38:22 IST" finished-at="2019-01-05T19:38:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="loginFaceBook()[pri:0, instance:Selenium1FirstTest@cd8737]" name="loginFaceBook" duration-ms="14535" started-at="2019-01-05T19:38:25 IST" finished-at="2019-01-05T19:38:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFaceBook -->
+        <test-method status="PASS" signature="cleanupBrowser()[pri:0, instance:Selenium1FirstTest@cd8737]" name="cleanupBrowser" is-config="true" duration-ms="858" started-at="2019-01-05T19:38:39 IST" finished-at="2019-01-05T19:38:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanupBrowser -->
+      </class> <!-- Selenium1FirstTest -->
+    </test> <!-- FaceBookLogin -->
+    <test name="RadioButtonsTest" duration-ms="4961" started-at="2019-01-05T19:38:40 IST" finished-at="2019-01-05T19:38:45 IST">
+      <class name="Selenium2RadioButtons">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:Selenium2RadioButtons@1f2a3a5]" name="setupBrowser" is-config="true" duration-ms="1635" started-at="2019-01-05T19:38:40 IST" finished-at="2019-01-05T19:38:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="RadioButtonPractice()[pri:0, instance:Selenium2RadioButtons@1f2a3a5]" name="RadioButtonPractice" duration-ms="2576" started-at="2019-01-05T19:38:42 IST" finished-at="2019-01-05T19:38:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RadioButtonPractice -->
+        <test-method status="PASS" signature="cleanupBrowser()[pri:0, instance:Selenium2RadioButtons@1f2a3a5]" name="cleanupBrowser" is-config="true" duration-ms="746" started-at="2019-01-05T19:38:44 IST" finished-at="2019-01-05T19:38:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanupBrowser -->
+      </class> <!-- Selenium2RadioButtons -->
+    </test> <!-- RadioButtonsTest -->
+    <test name="CheckBoxesTest" duration-ms="7776" started-at="2019-01-05T19:38:45 IST" finished-at="2019-01-05T19:38:53 IST">
+      <class name="Selenium3CheckBoxes">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:Selenium3CheckBoxes@1e46e8f]" name="setupBrowser" is-config="true" duration-ms="1816" started-at="2019-01-05T19:38:45 IST" finished-at="2019-01-05T19:38:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="FAIL" signature="CheckBoxPractice()[pri:0, instance:Selenium3CheckBoxes@1e46e8f]" name="CheckBoxPractice" duration-ms="5204" started-at="2019-01-05T19:38:47 IST" finished-at="2019-01-05T19:38:52 IST">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression following-sibling::label[.*] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'following-sibling::label[.*]' is not a valid XPath expression.
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.7', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65085}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: ae7814dbd8ecfaea6fec6a28c3b7de44
+*** Element info: {Using=xpath, value=following-sibling::label[.*]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression following-sibling::label[.*] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'following-sibling::label[.*]' is not a valid XPath expression.
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.7', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65085}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: ae7814dbd8ecfaea6fec6a28c3b7de44
+*** Element info: {Using=xpath, value=following-sibling::label[.*]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:185)
+at org.openqa.selenium.remote.RemoteWebElement.findElementByXPath(RemoteWebElement.java:261)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:181)
+at Selenium3CheckBoxes.CheckBoxPractice(Selenium3CheckBoxes.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
+at org.testng.SuiteRunner.run(SuiteRunner.java:302)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBoxPractice -->
+        <test-method status="PASS" signature="cleanupBrowser()[pri:0, instance:Selenium3CheckBoxes@1e46e8f]" name="cleanupBrowser" is-config="true" duration-ms="744" started-at="2019-01-05T19:38:52 IST" finished-at="2019-01-05T19:38:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanupBrowser -->
+      </class> <!-- Selenium3CheckBoxes -->
+    </test> <!-- CheckBoxesTest -->
+    <test name="DropDownSingleTest" duration-ms="24413" started-at="2019-01-05T19:38:53 IST" finished-at="2019-01-05T19:39:17 IST">
+      <class name="Selenium4DropDownSingle">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:Selenium4DropDownSingle@1143ee9]" name="setupBrowser" is-config="true" duration-ms="1708" started-at="2019-01-05T19:38:53 IST" finished-at="2019-01-05T19:38:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="dropDownPractice()[pri:0, instance:Selenium4DropDownSingle@1143ee9]" name="dropDownPractice" duration-ms="21330" started-at="2019-01-05T19:38:55 IST" finished-at="2019-01-05T19:39:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownPractice -->
+        <test-method status="PASS" signature="cleanupBrowser()[pri:0, instance:Selenium4DropDownSingle@1143ee9]" name="cleanupBrowser" is-config="true" duration-ms="1375" started-at="2019-01-05T19:39:16 IST" finished-at="2019-01-05T19:39:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanupBrowser -->
+      </class> <!-- Selenium4DropDownSingle -->
+    </test> <!-- DropDownSingleTest -->
+    <test name="DropDownMultipleTest" duration-ms="9744" started-at="2019-01-05T19:39:18 IST" finished-at="2019-01-05T19:39:27 IST">
+      <class name="Selenium5DropDownMultiple">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:Selenium5DropDownMultiple@137cf78]" name="setupBrowser" is-config="true" duration-ms="1639" started-at="2019-01-05T19:39:18 IST" finished-at="2019-01-05T19:39:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="multiDropDownPractice()[pri:0, instance:Selenium5DropDownMultiple@137cf78]" name="multiDropDownPractice" duration-ms="6792" started-at="2019-01-05T19:39:19 IST" finished-at="2019-01-05T19:39:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[ ====> Running the getOptions part]]>
+            </line>
+            <line>
+              <![CDATA[ ====> Running the selectByIndex part]]>
+            </line>
+            <line>
+              <![CDATA[ ====> Running the selectByVisibleText part]]>
+            </line>
+            <line>
+              <![CDATA[ ====> Running the selectByValue part]]>
+            </line>
+            <line>
+              <![CDATA[ ====> Running the getFirstSelected part]]>
+            </line>
+            <line>
+              <![CDATA[ ====> Running the deselectByIndex part]]>
+            </line>
+            <line>
+              <![CDATA[ ====> Running the deselectByValue part]]>
+            </line>
+            <line>
+              <![CDATA[ ====> Running the deselectByVisibleText part]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiDropDownPractice -->
+        <test-method status="PASS" signature="cleanupBrowser()[pri:0, instance:Selenium5DropDownMultiple@137cf78]" name="cleanupBrowser" is-config="true" duration-ms="1309" started-at="2019-01-05T19:39:26 IST" finished-at="2019-01-05T19:39:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanupBrowser -->
+      </class> <!-- Selenium5DropDownMultiple -->
+    </test> <!-- DropDownMultipleTest -->
+  </suite> <!-- SeleniumPracticeSuite -->
+</testng-results>

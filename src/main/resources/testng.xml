@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SeleniumPracticeSuite">
+    <test name="FaceBookLogin">
+        <classes>
+            <class name="Selenium1FirstTest" />
+        </classes>
+    </test>
+    <test name="RadioButtonsTest">
+        <classes>
+            <class name="Selenium2RadioButtons" />
+        </classes>
+    </test>
+    <test name="CheckBoxesTest">
+        <classes>
+            <class name="Selenium3CheckBoxes" />
+        </classes>
+    </test>
+    <test name="DropDownSingleTest">
+        <classes>
+            <class name="Selenium4DropDownSingle" />
+        </classes>
+    </test>
+    <test name="DropDownMultipleTest">
+        <classes>
+            <class name="Selenium5DropDownMultiple" />
+        </classes>
+    </test>
+</suite>
