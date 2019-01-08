@@ -25,4 +25,64 @@
             <class name="Selenium5DropDownMultiple" />
         </classes>
     </test>
+    <test name="DropDownBootstrapTest">
+        <classes>
+            <class name="Selenium6DropDownBootStrap" />
+        </classes>
+    </test>
+    <test name="VerifyErrorTest">
+        <classes>
+            <class name="Selenium7VerifyErrorText" />
+        </classes>
+    </test>
+    <test name="ToolTipTest">
+        <classes>
+            <class name="Selenium8ToolTipSimple" />
+        </classes>
+    </test>
+    <test name="ToolTipJSQueryTest">
+        <classes>
+            <class name="Selenium9ToolTipsJQuery" />
+        </classes>
+    </test>
+    <test name="ClickImageTest">
+        <classes>
+            <class name="Selenium10ClickImage" />
+        </classes>
+    </test>
+    <test name="LinkTest">
+        <classes>
+            <class name="Selenium11LinkText" />
+        </classes>
+    </test>
+    <test name="PartialLinkTest">
+        <classes>
+            <class name="Selenium12PartialLinkText" />
+        </classes>
+    </test>
+    <test name="WaitImplicitTest">
+        <classes>
+            <class name="Selenium13WaitsImplicitWait" />
+        </classes>
+    </test>
+    <test name="WaitExplicitTest">
+        <classes>
+            <class name="Selenium14WaitsExplicitWait" />
+        </classes>
+    </test>
+    <test name="WaitExplicit2">
+        <classes>
+            <class name="Selenium15WaitsExplicitWait2" />
+        </classes>
+    </test>
+    <test name="Alerts1Test">
+        <classes>
+            <class name="Selenium18Alerts1" />
+        </classes>
+    </test>
+    <test name="Alerts2Test">
+        <classes>
+            <class name="Selenium19Alerts2" />
+        </classes>
+    </test>
 </suite>
