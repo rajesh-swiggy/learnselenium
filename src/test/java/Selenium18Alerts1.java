@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 public class Selenium18Alerts1 extends BaseClass {
     @Test
     public void alertsPracticeJSAlert() {
+        // another sample website : http://demo.guru99.com/test/delete_customer.php
         driver.get("https://the-internet.herokuapp.com/javascript_alerts");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

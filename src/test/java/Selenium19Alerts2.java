@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 public class Selenium19Alerts2 extends BaseClass {
     @Test
     public void alertPracticeJSConfirm() throws InterruptedException {
+        // another sample website : http://demo.guru99.com/test/delete_customer.php
         driver.get("https://the-internet.herokuapp.com/javascript_alerts");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
