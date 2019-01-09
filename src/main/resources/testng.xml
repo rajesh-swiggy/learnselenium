@@ -1,28 +1,24 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="SeleniumPracticeSuite">
-    <test name="FaceBookLogin">
+    <test name="SeleneiumLearningTests">
         <classes>
             <class name="Selenium1FirstTest" />
-        </classes>
-    </test>
-    <test name="RadioButtonsTest">
-        <classes>
             <class name="Selenium2RadioButtons" />
-        </classes>
-    </test>
-    <test name="CheckBoxesTest">
-        <classes>
             <class name="Selenium3CheckBoxes" />
-        </classes>
-    </test>
-    <test name="DropDownSingleTest">
-        <classes>
             <class name="Selenium4DropDownSingle" />
-        </classes>
-    </test>
-    <test name="DropDownMultipleTest">
-        <classes>
             <class name="Selenium5DropDownMultiple" />
+            <class name="Selenium6DropDownBootStrap" />
+            <class name="Selenium7VerifyErrorText" />
+            <class name="Selenium8ToolTipSimple" />
+            <class name="Selenium9ToolTipsJQuery" />
+            <class name="Selenium10ClickImage" />
+            <class name="Selenium11LinkText" />
+            <class name="Selenium12PartialLinkText" />
+            <class name="Selenium13WaitsImplicitWait" />
+            <class name="Selenium14WaitsExplicitWait" />
+            <class name="Selenium15WaitsExplicitWait2" />
+            <class name="Selenium18Alerts1" />
+            <class name="Selenium19Alerts2" />
         </classes>
     </test>
     <test name="DropdownBootstrap">
